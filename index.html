@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>E-LEARNING</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/material-icons.css">
+		<link rel="stylesheet" type="text/css" href="css/sd-style.css">
+		<link rel="stylesheet" type="text/css" href="css/font-cabin.css">
+		<link rel="stylesheet" type="text/css" href="css/font-Hammersmith.css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<style type="text/css">
+			html,body{
+				font-family: "Cabin", sans-serif;
+			}
+			h1,h2,h3,h4{
+				font-family: "Hammersmith", condensed;
+				/*font-weight: 200;*/
+			}
+			#quick-desc h4{
+				line-height: 1.5;
+			}
+			#quick-desc p{
+				padding-left: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--Header mencakup NavBar dan Banner-->
+		<header>
+			<nav class="navbar navbar-default navbar-fixed-top" id="nav-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigasi">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+						<a href="#" class="navbar-brand">e-Learning</a>
+					</div>
+					<div class="collapse navbar-collapse" id="navigasi">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#!">Beranda</a></li>
+							<li><a href="#!">Tentang Kami</a></li>
+							<li><a href="#!">Kursus</a></li>
+							<li><a href="#!">Tim Kami</a></li>
+							<li><a href="#!">Kontak</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="jumbotron" id="main-banner">
+				<div class="container center-align">
+					<h1>Menebar Ilmu untuk Masa Depan yang Cerah</h1>
+					<p>Lebih dari seribu pengajar aktif telah bergabung</p>
+				</div>
+			</div>
+		</header>
+		<article>
+			<section id="statistic">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-4 center-align">
+							<p><i class="material-icons">person</i></p>
+							<p class="count">1234</p>
+							<p>Pelajar Aktif</p>
+						</div>
+						<div class="col-xs-4 center-align">
+							<p><i class="material-icons">people</i></p>
+							<p class="count">1234</p>
+							<p>Pengajar Aktif</p>
+						</div>
+						<div class="col-xs-4 center-align">
+							<p><i class="material-icons">code</i></p>
+							<p class="count">1234</p>
+							<p>Materi Pelajaran</p>
+							
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="about-us">
+				<div class="container">
+					<div class="row center-align">
+						<br/><br/>
+						<h2>Tentang Kami</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<br/><br/><br/>
+					</div>
+				</div>
+			</section>
+			<section id="kursus">
+				<div class="container">
+					<div class="row center-align">
+						<h2>Materi yang Luar Biasa</h2>
+						<div id="slider-materi" class="carousel slide" data-ride="carousel">
+							<!--Indikator Carousel-->
+							<ol class="carousel-indicators">
+								<li data-target="#slider-materi" data-slide-to="0" class="active"></li>
+								<li data-target="#slider-materi" data-slide-to="1"></li>
+								<li data-target="#slider-materi" data-slide-to="2"></li>
+							</ol>
+
+							<!--Isi Carousel-->
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+									<div class="row">
+										<div class="col-md-4">
+											<div class="panel panel-default course-panel">
+												<div class="panel-image">
+													<img src="img/paris.jpg" class="img-responsive">
+												</div>
+												<div class="panel-body">
+													<h4>Lorem Ipsum</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="panel panel-default course-panel">
+												<div class="panel-image">
+													<img src="img/newyork.jpg" class="img-responsive">
+												</div>
+												<div class="panel-body">
+													<h4>Dolor sit Amet</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="panel panel-default course-panel">
+												<div class="panel-image">
+													<img src="img/sanfran.jpg" class="img-responsive">
+												</div>
+												<div class="panel-body">
+													<h4>Consectetur</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="row">
+										<div class="col-md-4">
+											<div class="panel panel-default course-panel">
+												<div class="panel-image">
+													<img src="img/paris.jpg" class="img-responsive">
+												</div>
+												<div class="panel-body">
+													<h4>Lorem Ipsum</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="panel panel-default course-panel">
+												<div class="panel-image">
+													<img src="img/newyork.jpg" class="img-responsive">
+												</div>
+												<div class="panel-body">
+													<h4>Dolor sit Amet</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="panel panel-default course-panel">
+												<div class="panel-image">
+													<img src="img/sanfran.jpg" class="img-responsive">
+												</div>
+												<div class="panel-body">
+													<h4>Consectetur</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="row">
+										<div class="col-md-4">
+											<div class="panel panel-default course-panel">
+												<div class="panel-image">
+													<img src="img/paris.jpg" class="img-responsive">
+												</div>
+												<div class="panel-body">
+													<h4>Lorem Ipsum</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="panel panel-default course-panel">
+												<div class="panel-image">
+													<img src="img/newyork.jpg" class="img-responsive">
+												</div>
+												<div class="panel-body">
+													<h4>Dolor sit Amet</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="panel panel-default course-panel">
+												<div class="panel-image">
+													<img src="img/sanfran.jpg" class="img-responsive">
+												</div>
+												<div class="panel-body">
+													<h4>Consectetur</h4>
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="quick-desc">
+				<div class="container">
+					<br/><br/>
+					<div class="row">
+						<div class="col-md-7">
+							<img src="img/la.jpg" class="img-responsive">
+						</div>
+						<div class="col-md-5" id="deskripsi">
+							<div class="row">
+								<h4><i class="material-icons left">explore</i> Belajar Dimana Saja</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.</p>
+							</div>
+							<div class="row">
+								<h4><i class="material-icons left">accessibility</i> Belajar Bersama-sama</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.</p>
+							</div>
+							<div class="row">
+								<h4><i class="material-icons left">import_contacts</i> Berbagi Ilmu</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br/><br/>
+			</div>
+		</section>
+		<section id="crew">
+			<div class="container">
+				<div class="row center-align">
+					<h2>Tim Kami</h2>
+					<p>Lebih dari 1000 pengajar profesional telah bergabung</p>
+					<div class="col-md-3">
+						<div class="panel panel-default people">
+							<div class="panel-body center-align">
+								<img src="img/trainer-1.jpg" class="img-responsive img-circle">
+								<p class="trainer-name">John Doe</p>
+								<hr class="shortline">
+								<p class="trainer-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="panel panel-default people">
+							<div class="panel-body center-align">
+								<img src="img/trainer-2.jpg" class="img-responsive img-circle">
+								<p class="trainer-name">Jane Doe</p>
+								<hr class="shortline">
+								<p class="trainer-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="panel panel-default people">
+							<div class="panel-body center-align">
+								<img src="img/trainer-3.jpg" class="img-responsive img-circle">
+								<p class="trainer-name">Robert Mutt</p>
+								<hr class="shortline">
+								<p class="trainer-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="panel panel-default people">
+							<div class="panel-body center-align">
+								<img src="img/trainer-4.jpg" class="img-responsive img-circle">
+								<p class="trainer-name">Lidya Thane</p>
+								<hr class="shortline">
+								<p class="trainer-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</article>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<h4>E-Learning</h4>
+					<ul class="sitemaps">
+						<li><a href="#!">Kursus</a></li>
+						<li><a href="#!">Blog</a></li>
+						<li><a href="#!">Kontak</a></li>
+						<li><a href="#!">Media Sosial</a></li>
+						<li><a href="#!">Tentang kami</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h4>Tautan</h4>
+					<ul class="sitemaps">
+						<li><a href="#!">Kogtik</a></li>
+						<li><a href="#!">Fasilitas</a></li>
+						<li><a href="#!">Bantuan</a></li>
+						<li><a href="#!">Kebijakan</a></li>
+						<li><a href="#!">Kementrian Pendidikan</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h4>Pengembangan</h4>
+					<ul class="sitemaps">
+						<li><a href="#!">API</a></li>
+						<li><a href="#!">Bootstrap</a></li>
+						<li><a href="#!">jQuery</a></li>
+						<li><a href="#!">W3Schools.com</a></li>
+						<li><a href="#!">SD Software Studio</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
+					<h4>Kontak Kami</h4>
+					<p>Jl. Mahar Martanegara No. 48, Utama, Cimahi Selatan, Cimahi, Jawa Barat</p>
+					<p>+62 80880808080</p>
+					<p>E-Mail: info@domain.com</p>
+				</div>
+			</div>
+		</div>
+		<section id="copyrights" class="center-align">
+			<p>&copy; Copyright &copy; 2017 RPL SMKN 1 Cimahi. All Rights Reserved</p>
+		</section>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,109 @@
+html, body{
+	font-family: "Cabin", sans-serif;
+}
+
+h1,h2,h3,h4{
+	/*font-family: "Alfa Slab One", condensed;*/
+	text-transform: uppercase;
+}	
+hr.shortline{
+	border-width: 2px;
+	margin: 12px calc(50% - 25px);
+	border-color: #333;
+}
+section{
+	padding: 10px 0;
+}
+
+p.trainer-name{
+	line-height: 2;
+	font-size: 1.7em;
+}
+
+.center-align{
+	text-align: center;
+}
+.right-align{
+	text-align: right;
+}
+.justify-align{
+	text-align: justify;
+}
+div.shortline{
+	width: 30px;
+	height: 4px;
+	background-color: #000;
+}
+.panel.panel-default.people{
+	border: none;
+	box-shadow: none;
+}
+.panel.panel-default.people .panel-body img{
+	transition: 229ms;
+	box-shadow: 0 0px 0px 0 rgba(0,0,0,.4);
+}
+.panel.panel-default.people .panel-body img:hover{
+	transform: scale(1.1);
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,.4);
+}
+.panel.panel-default.course-panel .panel-image{
+	overflow: hidden;
+	height: 250px;
+
+}
+.panel.panel-default.course-panel .panel-body{
+	text-align: left;
+
+}
+.left{
+	float: left;
+	margin : 0 5px;
+}
+.right{
+	float: right;
+}
+
+
+#main-banner{
+	background-image: url(../img/cover-head.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	color: white;
+	padding: calc(50vh - 66px) 0 ;
+}
+
+
+#statistic{
+
+
+}
+
+#about-us{
+	background-color: #EDEDED;
+
+}
+
+#deskripsi{
+	padding-left: 30px ;
+}
+
+#nav-top{
+
+
+}
+.carousel-indicators{
+	position: relative;
+	top: 6px;
+}
+.carousel-indicators li{
+	border-color: #333;
+
+}
+.carousel-indicators li.active{
+	background-color: gray;
+}
+
+/*.jumbotron h1{
+	font-size: em;
+}*/
